@@ -1,0 +1,76 @@
+.principal {
+    display: flex;
+    padding: 20px;
+ }
+
+
+.div1 {
+    background: red;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    margin: 30px;
+    
+    
+}
+
+
+
+.div2 {
+    background: #3b5249;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.div3 {
+    background: rgb(234, 567, 134);
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.conteiner {
+    
+    background: #519872;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 40%;
+    border-radius: 10px;
+   
+    
+    
+}
+
+
+
+ h1 {
+    text-align: center;
+}
+
+.inputemail {
+   border-radius: 10px;
+   border: none;
+}
+
+.inputsenha {
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    color: blue;
+    background: #95D6B8;
+    text-decoration: none;
+    border: none;
+    
+}
+
+button:hover {
+    color: red;
+}
+
