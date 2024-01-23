@@ -1,80 +1,66 @@
 
 #pai {
+  
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 
 } 
 
-.imagens {
-    display: flex;
-    margin: auto;
-}
-
-button {
-   
-    text-align: center;
-    border-radius: 10px;
-    height: 40px;
-    width: 80px;
-    border: none;
-    background: #C92071;
-    padding: 10px;
-    margin-right: 20px;
- 
-}
-
 .input {
-    
+    display: flex;
+    background: rgb(230, 230, 248);
+    width: 606px;
+    height: 40px;
     border-radius: 10px;
-    background: rgb(182, 179, 179);
-    width: 700px;
     align-items: center;
-    
+   
 }
 
 input {
-    width: 600px;
+    width: 559px;
     height: 40px;
-    border-radius: 10px;
     border: none;
     outline: none;
-    margin-bottom: 5px;
-    background: rgb(182, 179, 179);
-    
-    
-   
-  
+    background: rgb(230, 230, 248);
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
   
 }
-.material-symbols-outlined {
-   padding-left: 20px;
-   font-size: larger;
-    
-  
-}  
- 
-h1 {
-    color: #C92071;
-    left: 200px;
+
+.lupa {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    left: 20px;
+    margin-left: 30px;
+
+
+}
+
+button {
+    width: 114px;
+    height: 40px;
+    background: #C92071; 
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
 }
 
 a {
+    padding: 20px;
+    margin-top: 40px;
+    gap: 30px;
     text-decoration: none;
-    margin: 20px 20px;
-    padding: 10px;
-
-   
-    
-    
-    
- 
-
-   
     
 }
 
-
- 
+a:hover {
+    color: #C92071;
+    text-decoration-line: underline;
+}
