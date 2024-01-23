@@ -12,8 +12,8 @@
 
 .input {
     display: flex;
-    background: rgb(230, 230, 248);
-    width: 606px;
+    background: #F5F5F5;
+    width: 600px;
     height: 40px;
     border-radius: 10px;
     align-items: center;
@@ -21,12 +21,12 @@
 }
 
 input {
-    width: 559px;
+    background: #F5F5F5;
+    width: 520px;
     height: 40px;
     border: none;
     outline: none;
-    background: rgb(230, 230, 248);
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 10px;
     padding-left: 10px;
   
@@ -37,6 +37,7 @@ input {
     color: rgba(0, 0, 0, 0.6);
     left: 20px;
     margin-left: 30px;
+   
 
 
 }
@@ -52,15 +53,27 @@ button {
 
 }
 
+button:hover {
+    transition: all .3s ease-in-out;
+    background: #B31E63;
+
+}
+
 a {
     padding: 20px;
     margin-top: 40px;
     gap: 30px;
     text-decoration: none;
+    margin-top: 20px;
     
 }
 
 a:hover {
     color: #C92071;
     text-decoration-line: underline;
+}
+
+.conteudo {
+    display: flex;
+    padding-top: 20px ;
 }
