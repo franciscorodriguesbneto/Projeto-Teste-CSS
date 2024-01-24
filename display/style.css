@@ -65,6 +65,7 @@ a {
     gap: 30px;
     text-decoration: none;
     margin-top: 20px;
+   
     
 }
 
@@ -75,5 +76,61 @@ a:hover {
 
 .conteudo {
     display: flex;
-    padding-top: 20px ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: #F5F5F5;
+    justify-content: space-around;
+    
+   
+    
+} 
+
+.folder {
+    width: 530px;
+    height: 330px;
+    top: 400px;
+    left: 300px;
+
+
+    
+} 
+
+.texto {
+    width: 500px;
+    height: 350;
+    border: 3px solid #F5F5F5;
+   
+   
+   
+}
+
+.p1 {
+    color: #F6AA1C;
+   
+   
+}
+
+.p3 {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+
+.Ofertas {
+    background: #B31E63;
+    width: 220px;
+    height: 48px;
+    top: 622px;
+    left: 100px;
+   
+} 
+
+Ofertas:hover {
+    color: #C92071;
+    text-decoration-line: underline;
 }
